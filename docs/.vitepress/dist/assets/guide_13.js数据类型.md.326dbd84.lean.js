@@ -1,1 +1,0 @@
-import{o as n,c as s,d as a}from"./app.6013c500.js";const t='{"title":"","description":"","frontmatter":{},"relativePath":"guide/13.js数据类型.md","lastUpdated":1623461016641}',p={},o=a('',16);p.render=function(a,t,p,e,c,l){return n(),s("div",null,[o])};export default p;export{t as __pageData};

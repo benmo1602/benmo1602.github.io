@@ -1,1 +1,0 @@
-import{o as n,c as s,d as a}from"./app.6013c500.js";const p='{"title":"","description":"","frontmatter":{},"relativePath":"guide/03.微任务执行问题-面试题.md","lastUpdated":1623290556874}',t={},o=a('',4);t.render=function(a,p,t,e,c,u){return n(),s("div",null,[o])};export default t;export{p as __pageData};

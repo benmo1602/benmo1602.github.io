@@ -2,29 +2,24 @@ module.exports = {
   title: '本末的Blog',
   description: '本末的前端搬砖之路',
   themeConfig: {
-    // repo: 'vuejs/vitepress',
-    // docsDir: 'docs',
+    repo: 'benmo1602/blog',
+    docsDir: 'docs',
 
-    // editLinks: true,
-    // editLinkText: 'Edit this page on GitHub',
-    // lastUpdated: 'Last Updated',
-
-    // algolia: {
-    //   apiKey: 'c57105e511faa5558547599f120ceeba',
-    //   indexName: 'vitepress'
-    // },
-
-    // carbonAds: {
-    //   carbon: 'CEBDT27Y',
-    //   custom: 'CKYD62QM',
-    //   placement: 'vuejsorg'
-    // },
+    editLinks: true,
+    editLinkText: 'Edit this page on GitHub',
+    lastUpdated: 'Last Updated',
+    algolia: {
+      apiKey: 'c57105e511faa5558547599f120ceeba',
+      indexName: 'vitepress'
+    },
+    carbonAds: {
+      carbon: 'CEBDT27Y',
+      custom: 'CKYD62QM',
+      placement: 'vuejsorg'
+    },
     nav: [
-      { text: 'Guide', link: '/', activeMatch: '^/$|^/guide/' },
-      {
-        text: 'github',
-        link: 'https://github.com/benmo1602/blog'
-      }
+      { text: '面试问题', link: '/', activeMatch: '^/$|^/guide/' },
+      { text: 'config', link: '/config',  activeMatch: '^/$|^/config/' }
     ],
     sidebar: {
       '/guide/': getGuideSidebar(),
@@ -51,9 +46,10 @@ function getGuideSidebar() {
   // console.log(children);
   return [
     {
-      text: '面试问题',
+      text: '面试问题整理',
       children: [
         { text: '异步执行顺序问题', link: '/guide/01.异步执行顺序问题-面试题' },
+        { text: '微任务执行问题', link: '/guide/03.微任务执行问题-面试题' },
       ]
     }
   ]
