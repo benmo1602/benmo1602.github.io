@@ -1,0 +1,1 @@
+import{o as t,c as e,d as r}from"./app.8f4d3ffd.js";const p='{"title":"","description":"","frontmatter":{},"relativePath":"guide/32.变量提升.md","lastUpdated":1623740475249}',o={},n=r('',8);o.render=function(r,p,o,a,l,s){return t(),e("div",null,[n])};export default o;export{p as __pageData};

@@ -1,0 +1,1 @@
+import{o as n,c as s,d as a}from"./app.8f4d3ffd.js";const t='{"title":"防抖","description":"","frontmatter":{},"headers":[{"level":3,"title":"防抖","slug":"防抖"}],"relativePath":"guide/25.节流和防抖.md","lastUpdated":1623740829473}',p={},o=a('',11);p.render=function(a,t,p,e,c,l){return n(),s("div",null,[o])};export default p;export{t as __pageData};

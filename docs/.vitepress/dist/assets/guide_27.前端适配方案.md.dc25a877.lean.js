@@ -1,0 +1,1 @@
+import{o as a,c as r,d as e}from"./app.8f4d3ffd.js";const d='{"title":"1 移动端适配方案","description":"","frontmatter":{},"relativePath":"guide/27.前端适配方案.md","lastUpdated":1623741135019}',h={},i=e('',7);h.render=function(e,d,h,t,n,_){return a(),r("div",null,[i])};export default h;export{d as __pageData};

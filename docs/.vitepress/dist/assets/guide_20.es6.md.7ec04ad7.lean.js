@@ -1,0 +1,1 @@
+import{o as n,c as a,d as s}from"./app.8f4d3ffd.js";const t='{"title":"es6","description":"","frontmatter":{},"headers":[{"level":3,"title":"es6","slug":"es6"}],"relativePath":"guide/20.es6.md","lastUpdated":1623742755936}',e={},p=s('',2);e.render=function(s,t,e,o,c,l){return n(),a("div",null,[p])};export default e;export{t as __pageData};
