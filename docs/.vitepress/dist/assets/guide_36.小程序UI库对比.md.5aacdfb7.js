@@ -1,1 +1,0 @@
-import{o as t,c as e}from"./app.8f4d3ffd.js";const r='{"title":"","description":"","frontmatter":{},"relativePath":"guide/36.小程序UI库对比.md","lastUpdated":1624959790543}',d={};d.render=function(r,d,a,o,i,f){return t(),e("div")};export default d;export{r as __pageData};

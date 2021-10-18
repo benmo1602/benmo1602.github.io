@@ -1,1 +1,0 @@
-import{o as e,c as t,d as p}from"./app.8f4d3ffd.js";const r='{"title":"","description":"","frontmatter":{},"relativePath":"guide/29.react.md","lastUpdated":1623517092044}',a={},n=p('',17);a.render=function(p,r,a,o,s,c){return e(),t("div",null,[n])};export default a;export{r as __pageData};

@@ -35,7 +35,7 @@ module.exports = {
       { text: 'Guide', link: '/', activeMatch: '^/$|^/guide/' },
       {
         text: 'github',
-        link: 'https://github.com/benmo1602/blog'
+        link: 'https://github.com/benmo1602/benmo1602.github.io'
       }
     ]
   }

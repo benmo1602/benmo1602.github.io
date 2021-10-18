@@ -1,0 +1,1 @@
+import{o as e,c as r,d as a}from"./app.6013c500.js";const d='{"title":"浏览器进程","description":"","frontmatter":{},"headers":[{"level":3,"title":"浏览器进程","slug":"浏览器进程"}],"relativePath":"guide/34.浏览器的进程.md","lastUpdated":1624959724527}',h={},n=a('',9);h.render=function(a,d,h,s,t,o){return e(),r("div",null,[n])};export default h;export{d as __pageData};

@@ -1,0 +1,1 @@
+import{o as e,c as n,d as t}from"./app.6013c500.js";const r='{"title":"Vue","description":"","frontmatter":{},"headers":[{"level":3,"title":"Vue","slug":"vue"}],"relativePath":"guide/11.vue相关问题.md","lastUpdated":1624091523429}',a={},p=t('',6);a.render=function(t,r,a,s,o,i){return e(),n("div",null,[p])};export default a;export{r as __pageData};

@@ -1,0 +1,1 @@
+import{o as e,c as o,d as c}from"./app.6013c500.js";const d='{"title":"Sourcemap是什么？有什么作用？在生产环境怎么用？","description":"","frontmatter":{},"relativePath":"guide/09.sourceMap相关-面试题.md","lastUpdated":1623297727936}',r={},a=c('',3);r.render=function(c,d,r,p,u,s){return e(),o("div",null,[a])};export default r;export{d as __pageData};

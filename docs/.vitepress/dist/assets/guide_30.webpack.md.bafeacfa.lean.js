@@ -1,1 +1,0 @@
-import{o as n,c as a,d as s}from"./app.8f4d3ffd.js";const p='{"title":"webpack 原理","description":"","frontmatter":{},"relativePath":"guide/30.webpack.md","lastUpdated":1624082106757}',o={},t=s('',17);o.render=function(s,p,o,e,c,l){return n(),a("div",null,[t])};export default o;export{p as __pageData};
