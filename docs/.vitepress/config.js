@@ -4,19 +4,18 @@ module.exports = {
   themeConfig: {
     repo: 'benmo1602/blog',
     docsDir: 'docs',
-
     editLinks: true,
     editLinkText: 'Edit this page on GitHub',
     lastUpdated: 'Last Updated',
-    algolia: {
-      apiKey: 'c57105e511faa5558547599f120ceeba',
-      indexName: 'vitepress'
-    },
-    carbonAds: {
-      carbon: 'CEBDT27Y',
-      custom: 'CKYD62QM',
-      placement: 'vuejsorg'
-    },
+    // algolia: {
+    //   apiKey: 'c57105e511faa5558547599f120ceeba',
+    //   indexName: 'vitepress'
+    // },
+    // carbonAds: {
+    //   carbon: 'CEBDT27Y',
+    //   custom: 'CKYD62QM',
+    //   placement: 'vuejsorg'
+    // },
     nav: [
       { text: '面试问题', link: '/', activeMatch: '^/$|^/guide/' },
       { text: 'config', link: '/config',  activeMatch: '^/$|^/config/' }
