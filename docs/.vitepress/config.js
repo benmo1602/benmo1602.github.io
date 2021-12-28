@@ -7,18 +7,9 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Edit this page on GitHub',
     lastUpdated: 'Last Updated',
-    // algolia: {
-    //   apiKey: 'c57105e511faa5558547599f120ceeba',
-    //   indexName: 'vitepress'
-    // },
-    // carbonAds: {
-    //   carbon: 'CEBDT27Y',
-    //   custom: 'CKYD62QM',
-    //   placement: 'vuejsorg'
-    // },
     nav: [
       { text: '面试问题', link: '/', activeMatch: '^/$|^/guide/' },
-      { text: 'config', link: '/config',  activeMatch: '^/$|^/config/' }
+      { text: 'config', link: '/config/test',  activeMatch: '^/$|^/config/' }
     ],
     sidebar: {
       '/guide/': getGuideSidebar(),
@@ -36,7 +27,8 @@ module.exports = {
 }
 
 function getGuideSidebar() {
-  // const files = require.context("/guide", false, /\.md$/)
+  const files = require.context("/guide", false, /\.md$/)
+  console.log(files);
   // const children = {};
   // files.keys().forEach(key => {
   //   const name = key.replace(/\.md/g, "")

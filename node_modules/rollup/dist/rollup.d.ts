@@ -169,6 +169,7 @@ interface ModuleInfo {
 	importers: readonly string[];
 	isEntry: boolean;
 	isExternal: boolean;
+	isIncluded: boolean | null;
 	meta: CustomPluginOptions;
 	syntheticNamedExports: boolean | string;
 }
@@ -198,6 +199,7 @@ export interface PluginContext extends MinimalPluginContext {
 	getWatchFiles: () => string[];
 	/** @deprecated Use `this.resolve` instead */
 	isExternal: IsExternal;
+	load: (options: { id: string } & Partial<PartialNull<ModuleOptions>>) => Promise<ModuleInfo>;
 	/** @deprecated Use `this.getModuleIds` instead */
 	moduleIds: IterableIterator<string>;
 	parse: (input: string, options?: any) => AcornNode;
