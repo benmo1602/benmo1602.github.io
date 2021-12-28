@@ -47,8 +47,9 @@ function getGuideSidebar() {
     {
       text: '面试问题整理',
       children: [
-        { text: '异步执行顺序问题', link: '/guide/01.异步执行顺序问题-面试题' },
-        { text: '微任务执行问题', link: '/guide/03.微任务执行问题-面试题' },
+        { text: '1.异步执行顺序问题', link: '/guide/01.异步执行顺序问题-面试题' },
+        { text: '2.异步执行顺序问题2', link: '/guide/02.异步执行顺序问题-面试题' },
+        { text: '3.微任务执行问题', link: '/guide/03.微任务执行问题-面试题' },
       ]
     }
   ]
