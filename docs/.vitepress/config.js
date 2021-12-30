@@ -27,8 +27,8 @@ module.exports = {
 }
 
 function getGuideSidebar() {
-  const files = require.context("/guide", false, /\.md$/)
-  console.log(files);
+  // const files = require.context("/guide", false, /\.md$/)
+  // console.log(files);
   // const children = {};
   // files.keys().forEach(key => {
   //   const name = key.replace(/\.md/g, "")
