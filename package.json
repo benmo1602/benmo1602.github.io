@@ -9,7 +9,9 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
-    "vitepress": "^0.20.0"
+    "vitepress": "^0.20.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   },
   "dependencies": {}
 }
