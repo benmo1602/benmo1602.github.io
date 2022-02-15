@@ -14,25 +14,25 @@ module.exports = {
       },
       {
         text: 'config',
-        link: '/config/test',
-        activeMatch: '^/$|^/config/'
+        link: '/config/index',
+        activeMatch: '^/config/'
       }
     ],
     sidebar: {
       '/guide/': getGuideSidebar(),
       '/config/': getConfigSidebar(),
       '/': getGuideSidebar()
-    },
-    footer: [{
-        text: 'Guide',
-        link: '/',
-        activeMatch: '^/$|^/guide/'
-      },
-      {
-        text: 'github',
-        link: 'https://github.com/benmo1602/benmo1602.github.io'
-      }
-    ]
+    }
+    // footer: [{
+    //     text: 'Guide',
+    //     link: '/',
+    //     activeMatch: '^/$|^/guide/'
+    //   },
+    //   {
+    //     text: 'github',
+    //     link: 'https://github.com/benmo1602/benmo1602.github.io'
+    //   }
+    // ]
   }
 }
 
@@ -153,9 +153,6 @@ function getGuideSidebar() {
       }, {
         text: "37.npm、npx、yarn的区别",
         link: "/guide/37.npm、npx、yarn的区别"
-      }, {
-        text: "38.day",
-        link: "/guide/38.day"
       }
     ]
   }]
@@ -163,18 +160,8 @@ function getGuideSidebar() {
 
 function getConfigSidebar() {
   return [{
-      text: 'App Config',
-      children: [{
-        text: 'test',
-        link: '/config/test'
-      }]
-    },
-    {
-      text: 'Theme Config',
-      children: [{
-        text: 'Homepage',
-        link: '/config/test1'
-      }]
+      text: '日常练习',
+      children: []
     }
   ]
 }
