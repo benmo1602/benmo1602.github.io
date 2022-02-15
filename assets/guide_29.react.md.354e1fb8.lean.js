@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as p,d as a}from"./app.de2db455.js";const m='{"title":"","description":"","frontmatter":{},"relativePath":"guide/29.react.md","lastUpdated":1644893039687}',r={},o=a('',11),l=[o];function s(i,n,c,_,d,u){return p(),e("div",null,l)}var f=t(r,[["render",s]]);export{m as __pageData,f as default};
