@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./app.de2db455.js";const f='{"title":"","description":"","frontmatter":{},"relativePath":"guide/36.\u5C0F\u7A0B\u5E8FUI\u5E93\u5BF9\u6BD4.md","lastUpdated":1644893039690}',_={};function r(o,s,c,n,p,d){return a(),e("div")}var l=t(_,[["render",r]]);export{f as __pageData,l as default};
