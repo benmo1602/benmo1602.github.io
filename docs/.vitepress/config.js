@@ -132,10 +132,7 @@ function getGuideSidebar() {
       }, {
         text: "30.webpack",
         link: "/guide/30.webpack"
-      }, {
-        text: "31.dd-javaScript",
-        link: "/guide/31.dd-javaScript"
-      }, {
+      },  {
         text: "32.变量提升",
         link: "/guide/32.变量提升"
       }, {
