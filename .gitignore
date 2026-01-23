@@ -1,4 +1,6 @@
-# Logs
+# Bun
+bun
+
 # logs
 *.log
 npm-debug.log*
