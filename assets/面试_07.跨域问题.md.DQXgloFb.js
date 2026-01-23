@@ -1,0 +1,14 @@
+import{_ as n,o as a,c as i,ae as t}from"./chunks/framework.BD9pLfSD.js";const k=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"面试/07.跨域问题.md","filePath":"面试/07.跨域问题.md","lastUpdated":1769081193000}'),p={name:"面试/07.跨域问题.md"};function e(l,s,E,h,o,r){return a(),i("div",null,[...s[0]||(s[0]=[t(`<p><strong>20200628面试题</strong></p><p>各位小伙伴，大家活跃的时刻到了，一起探讨下下面这个问题。</p><p>在你开发的过程中，什么情况下会遇到跨域问题，你是怎么解决的？</p><div class="language-html vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">html</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">1. API跨域可以通过服务器上nginx反向代理</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">2. 本地webpack dev server可以设置 proxy，</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">3. new Image, 设src 的时候，图片需要设置Cors</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">cors需要后台配合设置HTTP响应头，如果请求不是简单请求（</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> 1. method：get，post，</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> 2. content-type：三种表单自带的content-type，</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> 3. 没有自定义的HTTP header</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">），浏览器会先发送option预检请求，后端需要响应option请求，然后浏览器才会发送正式请求，</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">cors通过白名单的形式允许指定的域发送请求</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">jsonp是浏览器会放过 img script标签引入资源的方式。所以可以通过后端返回一段执行js函数的脚本，将数据作为参数传入。然后在前端执行这段脚本。双方约定一个函数的名称。</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">联调的时候会需要跨域，线上前端站点域和后台接口不一致也需要跨域，开发时跨域可以通过代理服务器来转发请求，因为跨域本身是浏览器对请求的限制，常见的跨域处理还有JSONP和cors，jsonp是利用脚本资源请求本身就可以跨域的特性，通过与请求一起发送回调函数名，后台返回script脚本直接执行回调，但是由于资源请求是get类型，请求参数长度有限制，也不能进行post请求。cors需要后台配合设置HTTP响应头，如果请求不是简单请求（1. method：get，post，2. content-type：三种表单自带的content-type，3. 没有自定义的HTTP header），浏览器会先发送option预检请求，后端需要响应option请求，然后浏览器才会发送正式请求，cors通过白名单的形式允许指定的域发送请求</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">同源策略只是浏览器客户端的防护机制，当发现非同源HTTP请求时会拦截响应，但服务器依然处理了这个请求。</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">服务器端不拦截，所以在同源服务器下做代理，可以实现跨域。</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">我之前这么看的node中间层处理跨域。</span></span></code></pre></div>`,4)])])}const d=n(p,[["render",e]]);export{k as __pageData,d as default};
